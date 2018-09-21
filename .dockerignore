@@ -1,0 +1,7 @@
+# Git files
+.git/*
+.gitignore
+
+
+README*
+LICENSE*
