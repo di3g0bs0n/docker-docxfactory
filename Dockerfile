@@ -17,7 +17,7 @@ RUN cd /opt/ && tar -zxf /opt/DocxFactoryLinux64.tar.gz && \
 	chmod 666 /etc/ld.so.conf.d/DocxFactory.conf && \
 	ldconfig && \
 	cd /opt/DocxFactory/python && python setup.py install && \
-	rm -rf /opt/DocxFactory/ && rm /opt/DocxFactoryLinux64.tar.gz && cd -
+	rm /opt/DocxFactoryLinux64.tar.gz && cd -
 
 
 
